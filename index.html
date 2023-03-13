@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>デバッグ体験</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Shippori+Antique&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./_scss/style.css">
+  <script src="./script/jquery.min.js"></script>
+  <script src="https://unpkg.com/microcms-js-sdk@latest/dist/umd/microcms-js-sdk.js"></script>
+  <script src="./script/animation.js"></script>
+  <script src="./script/overlay.js"></script>
+   
+</head>
+<body>
+  <div id="overlay" class="overlay">
+    <video id="overlay_movie" class="overlay-movie" data-src="./movie/movie-loading.mp4" src="" autoplay muted playsinline></video>
+  </div>
+  <header class="header content-wrap">
+    <div class="header__wrap header__wrap--left">
+      <img class="image header__logo" src="./image/logo.svg" alt="  ロゴ">
+      <h2 class="header__title">デバッグ体験</h2>
+    </div>
+    <nav class="header__wrap header__wrap--right">
+      <ul class="header__menu global-menu">
+        <li class="global-menu__item"><a class="link global-menu__link" href="./"><img class="image global-menu__image" src="./image/text-black-home.svg" alt="home"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./news.html"><img class="image global-menu__image" src="./image/text-black-news.svg" alt="news"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./blend.html"><img class="image global-menu__image" src="./image/text-black-blend.svg" alt="blend"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./company.html"><img class="image global-menu__image" src="./image/text-black-company.svg" alt="company"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./contact.html"><img class="image global-menu__image" src="./image/text-black-contact.svg" alt="contact"></a></li>
+      </ul>
+    </nav>
+    <button class="header__hamburger button"><span></span></button>
+  </header>
+  <main>
+    <section class="hero-section content-wrap">
+      <div class="hero-section__wrap content-wrap--child">
+        <h1><img class="image content-wrap--child--child hero-section__image hero-section__image--pc" src="./image/image-hero-blessing.png" alt="BLESSING 国産の天然繊維で優しく肌に触れる安心の商品開発へ"><img class="image content-wrap--child--child hero-section__image hero-section__image--sp" src="./image/image-hero-blessing-sp.png" alt="BLESSING 国産の天然繊維で優しく肌に触れる安心の商品開発へ"></h1>
+        <p class="hero-section__description--sp mt-25">こだわりの国産天然繊維で<br>優しく肌に触れる安心の商品開発へ</p>
+        <a class="link hero-section__button" href="#lab"><img class="image hero-section__arrow" src="./image/text-vertical-black-scroll.svg" alt="scroll"></a>
+      </div>
+    </section>
+    <section id="lab">
+      <div class="content-wrap">
+        <div class="section section--lab--1 section--flex content-wrap--child">
+          <h3 class="section__title">強み<img class="image" src="./image/text-vertical-gold-lab.svg" alt="lab"><img class="image image--sp" src="./image/text-gold-lab.svg" alt="lab"></h3>
+          <div class="section__body">
+            <p class="section__description--large mt-10- mt-sp-20">昔の良き時代を思い描き、<br>環境にやさしい自然、自然環境、植物など<br>自給自足をしていたもの・ことに注目し、<br>天然物に拘ったものづくりを目指しています。</p>
+            <p class="section__description mt-50 mt-sp-10">天然同士の良いところをMIXした<br>オリジナルな繊維化の制作、進化など、<br>身体に優しく身体が喜ぶ製品化が<br class="sp">出発点だと考え<br class="pc">原材料の選定、<br class="sp">また、皆さまの良いアイデアや<br>原材料などをアップサイクル、<br class="sp">リノベーションし、<br class="pc">オリジナル天然繊維を<br class="sp">ベースにした製品化を行なっております。</p>
+          </div>
+        </div>
+      </div>
+      <div class="section section--lab--2 section--brown">
+        <div class="content-wrap">
+          <div class="content-wrap--child">
+            <div class="section--lab--2__body content-wrap--child--child content-wrap--child--child--right">
+              <div class="section--lab--2__content">
+                <h4 class="section__description--large">原料のこだわりについて</h4>
+                <img class="section--lab--2__image image mt-25 mt-sp-20" src="./image/image-lab-01.jpg" alt="原料のこだわりについて イメージ">
+                <p class="section__description--narrow mt-30 mt-sp-20">科学のない時代の古代から活用されてきた、ナチュラルな生活様式を参考にしております。古代から伝えられてきた、自然との共存の中で人類が使ってきた原料をピックアップしています。</p>
+              </div>
+              <div class="section--lab--2__content">
+                <h4 class="section__description--large">こだわりの原点</h4>
+                <img class="section--lab--2__image image mt-25 mt-sp-20" src="./image/image-lab-02.jpg" alt="こだわりの原点 イメージ">
+                <p class="section__description--narrow mt-30 mt-sp-20">生まれた赤ちゃんは初めて纏う素材は、誰でも安心の天然繊維【綿100%コットン】です。このことに思いを育み、天然繊維を現代風に進化させ、身体が喜ぶ製品化を目指しています。</p>
+              </div>
+              <div class="section--lab--2__content">
+                <h4 class="section__description--large">ものづくりのコンセプト</h4>
+                <img class="section--lab--2__image image mt-25 mt-sp-20" src="./image/image-lab-03.jpg" alt="ものづくりのコンセプト イメージ">
+                <p class="section__description--narrow mt-30 mt-sp-20">製品化については、サプライヤーという立場から、日本中にある素晴らしい技術を活用させて頂き、国産100%・天然素材100%で、年中快適生活を育んで頂ける製品化を考えています。</p>
+              </div>
+              <div class="section--lab--2__content">
+                <h4 class="section__description--large">独自のノウハウで幅広く商品開発が可能</h4>
+                <img class="section--lab--2__image image mt-25 mt-sp-20" src="./image/image-lab-04.jpg" alt="独自のノウハウで幅広く商品開発が可能 イメージ">
+                <p class="section__description--narrow mt-30 mt-sp-20">培ってきた独自のノウハウにより自然素材を用いて、衣服に関わらずヘルスケア、ファッション&ビューティー、メディカルなど、肌に触れるあらゆるものを開発することが可能です。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="achievement" class="content-wrap">
+      <div class="section section--achievement section--flex content-wrap--child">
+        <h3 class="section__title">これまでの実績<img class="image" src="./image/text-vertical-gold-achievement.svg" alt="achievement"><img class="image image--sp" src="./image/text-gold-achievement.svg" alt="achievement"></h3>
+        <div class="section--achievement__body mt-sp-20">
+          <img class="image" src="./image/image-achievement-01.png" alt="これまでの実績 イメージ">
+          <section class="section--achievement__content mt-75 mt-sp-20">
+            <h4 class="section--achievement__title"><img class="image" src="./image/text-gray-fashion.svg" alt="fashion"></h4>
+            <p class="section__description--large section__description--large--achievement mt-80 mt-sp-20">私たち は、<br>天然繊維のプロとして、<br>さまざまなプロジェクトを<br class="sp">成功させてきました。</p>
+            <ol class="section__list section__list--number mt-65 mt-sp-30">
+              <li class="section__description"><span>綿１００％で有りながら、マルチプルストレッチ生地「<span>BEYONDコットン</span>」開発に成功、<br class="pc">製品化、<span>イッセイミヤケ</span>に採用、<span>山本寛斎</span>と<span>エイベックス</span>とのコラボ商品に採用、<span>Q V C</span>で販売。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span>発熱するコットン＝<span>ヒートコットン</span>を開発し、寝装寝具での商品化で、評価を受ける。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span>新たにカーボン化したオリジナルコットン糸開発に成功、<span>ポーラ化粧品</span>に採用され、多数の商品化。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span>化学物質過敏症の方が外出できる「<span>化学物質過敏症対策マスク</span>」完成。</span></li>
+            </ol>
+            <p class="section__description--large mt-75 mt-sp-30">また、各種異業種や海外企業との<br class="sp">連携も推進してきました。</p>
+            <ol class="section__list section__list--number section__list--number--5over mt-75 mt-sp-30">
+              <li class="section__description"><span><span>内モンゴル</span>のメーカーとタイアップ、<span>オリジナルエアーカシミヤ</span>の製品販売各種百貨店採用。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span><span>エコエバーコーリア</span>と韓国向け販売代理店契約。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span><span>美容整形外科</span>とタイアップ。</span></li>
+            </ol>
+          </section>
+          <section class="section--achievement__content mt-105 mt-sp-30">
+            <h4 class="section--achievement__title"><img class="image" src="./image/text-gray-natural_materials.svg" alt="natural materials"></h4>
+            <p class="section__description--large mt-65 mt-sp-10">さらに現在では、<br>全く新しい100%国産で<br>100%天然の糸の開発を進めております。</p>
+            <div class="section--achievement__wrap mt-45 mt-sp-10">
+              <ul class="section__list section__list--normal">
+                <li class="section__description">漆喰コットン</li>
+                <li class="section__description">ホタテ貝コットン</li>
+                <li class="section__description">煤コットン</li>
+              </ul>
+              <ul class="section__list section__list--normal ml-150 ml-sp-0">
+                <li class="section__description">糀っ子コットン</li>
+                <li class="section__description">温泉コットン</li>
+                <li class="section__description">山形県産さくらんぼコットン</li>
+              </ul>
+              <ul class="section__list section__list--normal ml-130 ml-sp-0">
+                <li class="section__description">兵庫県産ブラッドオレンジコットン</li>
+                <li class="section__description">和歌山県産みかんコットン</li>
+                <li class="section__description">和歌山県産柿しぶコットン</li>
+              </ul>
+              <div class="section__list section__list--normal ml-60 ml-sp-0">
+                <p class="section__description">など</p>
+              </div>
+            </div>
+            <p class="section__description--large mt-65 mt-sp-30">また、各種異業種との取り組みを進めております。</p>
+            <ol class="section__list section__list--number mt-75 mt-sp-30">
+              <li class="section__description"><span>日本酒「<span>山鶴</span>」の米麹を使用し繊維化に成功。</span></li>
+              <li class="section__description mt-45 mt-sp-20"><span>「<span>古梅園</span>」のすすを使用し繊維化に成功。</span></li>
+            </ol>
+            <p class="section__description--large mt-75 mt-sp-30">このように日本古来の、<br>伝統的なtraceability（出所のわかる）素材を使用し、<br>オリジナルな製品化を推進しております。</p>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section id="news" class="section--brown">
+      <div class="content-wrap">
+        <div class="section section--news section--flex content-wrap--child">
+          <h3 class="section__title">最新の情報<img class="image" src="./image/text-vertical-gold-news.svg" alt="news"><img class="image image--sp" src="./image/text-gold-news.svg" alt="news"></h3>
+          <div class="content-wrap--news">
+            <ul id="news_list" class="section__list news-list">
+              <li class="section__description news-list__item">
+                <a class="news-list__link link" href='./news_detail.html'>
+                  <time class=" news-list__time">2023.03.13</time>
+                  <h4 class="news-list__title">タイトル</h4>
+                </a>
+              </li>
+              <li class="section__description news-list__item">
+                <a class="news-list__link link" href='./news_detail.html'>
+                  <time class=" news-list__time">2023.03.13</time>
+                  <h4 class="news-list__title">タイトル</h4>
+                </a>
+              </li>
+              <li class="section__description news-list__item">
+                <a class="news-list__link link" href='./news_detail.html'>
+                  <time class=" news-list__time">2023.03.13</time>
+                  <h4 class="news-list__title">タイトル</h4>
+                </a>
+              </li>
+              <li class="section__description news-list__item">
+                <a class="news-list__link link" href='./news_detail.html'>
+                  <time class=" news-list__time">2023.03.13</time>
+                  <h4 class="news-list__title">タイトル</h4>
+                </a>
+              </li>
+              <li class="section__description news-list__item">
+                <a class="news-list__link link" href='./news_detail.html'>
+                  <time class=" news-list__time">2023.03.13</time>
+                  <h4 class="news-list__title">タイトル</h4>
+                </a>
+              </li>
+            </ul>
+            <a class="link content-wrap--news__link mt-20" href="./news.html">お知らせ一覧へ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <img class="image footer__logo" src="./image/logo.svg" alt="  ロゴ">
+    <dl class="footer__info">
+      <dt class="footer__company"> </dt>
+      <dd class="footer__address"> 〒000-0000</dd>
+      <dd class="footer__address">大阪府大阪市</dd>
+      <dd class="footer__tel">TEL：００−００００−００００</dd>
+      <dd class="footer__fax">FAX：００−００００−００００</dd>
+    </dl>
+    <div>
+      <nav class="footer__wrap">
+        <ul class="footer__menu global-menu">
+          <li class="global-menu__item"><a class="link global-menu__link" href="./"><img class="image global-menu__image" src="./image/text-black-home.svg" alt="home"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./news.html"><img class="image global-menu__image" src="./image/text-black-news.svg" alt="news"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./blend.html"><img class="image global-menu__image" src="./image/text-black-blend.svg" alt="blend"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./company.html"><img class="image global-menu__image" src="./image/text-black-company.svg" alt="company"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./contact.html"><img class="image global-menu__image" src="./image/text-black-contact.svg" alt="contact"></a></li>
+        </ul>
+      </nav>
+      <div class="sdgs">
+        <img class="sdgs__logo image" src="./image/sdg_logo.png">
+        <div class="sdgs__icons">
+          <img class="image" src="./image/sdg_icon_01_ja_2.png">
+          <img class="image" src="./image/sdg_icon_03_ja_2.png">
+          <img class="image" src="./image/sdg_icon_08_ja_2.png">
+          <img class="image" src="./image/sdg_icon_09_ja_2.png">
+          <img class="image" src="./image/sdg_icon_11_ja_2.png">
+          <img class="image" src="./image/sdg_icon_17_ja_2.png">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

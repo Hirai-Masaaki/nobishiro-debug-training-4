@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>BLEND｜デバッグ体験</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&family=Shippori+Antique&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./_scss/style.css">
+  <script src="./script/jquery.min.js"></script>
+  <script src="./script/animation.js"></script>
+</head>
+<body>
+  <header class="header content-wrap">
+    <div class="header__wrap header__wrap--left">
+      <img class="image header__logo" src="./image/logo.svg" alt="  ロゴ">
+      <h2 class="header__title">デバッグ体験</h2>
+    </div>
+    <nav class="header__wrap header__wrap--right">
+      <ul class="header__menu global-menu">
+        <li class="global-menu__item"><a class="link global-menu__link" href="./"><img class="image global-menu__image" src="./image/text-black-home.svg" alt="home"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./news.html"><img class="image global-menu__image" src="./image/text-black-news.svg" alt="news"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./blend.html"><img class="image global-menu__image" src="./image/text-black-blend.svg" alt="blend"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./company.html"><img class="image global-menu__image" src="./image/text-black-company.svg" alt="company"></a></li>
+        <li class="global-menu__item"><a class="link global-menu__link" href="./contact.html"><img class="image global-menu__image" src="./image/text-black-contact.svg" alt="contact"></a></li>
+      </ul>
+    </nav>
+    <button class="header__hamburger button"><span></span></button>
+  </header>
+  <main>
+    <section class="page page-blend">
+      <h1 class="page__title"><img class="image" src="./image/text-black-blend.svg" alt="blend"></h1>
+      <div class="page-blend__wrap mt-90">
+        <p class="page-blend__description">このページでは、天然繊維と自然素材の詳細を確認することができます。<br>ページ下にある天然繊維・自然素材をそれぞれクリックまたはタップすることで、天然繊維・自然素材の説明を変更することができます。</p>
+        <div class="page-blend__result">
+          <div class="page-blend__addition mt-50">
+            <div class="page-blend__material page-blend__material--1">
+              <div class="page-blend__image--selected">
+                <img id="material1_img" class="image" src="./image/image-blend-cotton.png" alt="綿 cotton">
+                <h2 class="mt-20">天然繊維</h2>
+              </div>
+              <div id="material1_desc" class="page-blend__description page-blend__description--frame">
+                <h2>綿の説明</h2>
+                <p>冬は暖かく夏は涼しい<br>コットン（綿）は、冬は保温性があって暖かく、夏は通気性や吸水性に優れたサラサラの着心地で、涼しく快適に使用できます。夏でも涼しく感じるのは、コットン（綿）の中心部分が空洞になっているためです。空洞になっていることで風の通り道ができ、コットン（綿）が汗を吸収して放出する際に、気化熱が発生して温度を下げることで、涼しく感じられます。また、寒い冬の時期では、ジャケットやコートを羽織ることで熱が放出されにくくなります。体温を外に逃がさず空気の層となってとどまることで、暖かさを保ってくれるのです。</p>
+              </div>
+            </div>
+            <img class="page-blend__plus image mt-70- mt-sp-0" src="./image/image-blend-plus.png" alt="+">
+            <div class="page-blend__material page-blend__material--2">
+              <div class="page-blend__image--selected">
+                <img id="material2_img" class="image" src="./image/image-blend-carbon.png" alt="炭素 carbon">
+                <h2 class="mt-20">自然素材</h2>
+              </div>
+              <div id="material2_desc" class="page-blend__description page-blend__description--frame">
+                <h2>炭素の説明</h2>
+                <p>従来のアクリル系や、エステル系の軽量で、硬度の強い工業的なカーボンファイバーではなく、我々の追い求めている炭素材料は植物性の自然材料をカーボン化(高温で燃焼)することにより発生する機能を活用する事であります。特徴としては多孔質が実現するという事です。この天然の多孔質が遠赤外線や、抗菌、消臭効果を発揮してくれる優れものです。</p>
+              </div>
+            </div>
+          </div>
+          <img class="page-blend__equal image mt-sp-30" src="./image/image-blend-equal.png" alt="=">
+          <div class="page-blend__yarn mt-95 mt-sp-30">
+            <div class="page-blend__image--selected">
+              <img class="image" src="./image/image-blend-raw_yarn.png" alt="原糸 raw yarn">
+              <h2 class="mt-20">原糸</h2>
+            </div>
+            <div id="yarn_desc" class="page-blend__description page-blend__description--frame">
+              <h2>原糸の説明</h2>
+              <p>ここにテキストがはいる。ここにテキストがはいる。ここにテキストがはいる。ここにテキストがはいる。</p>
+            </div>
+          </div>
+        </div>
+        <div class="page-blend__list">
+          <div class="page-blend__materials page-blend__materials--1">
+            <p>組み合わせる天然繊維を選んでください。</p>
+            <div class="page-blend__natural-fiber mt-65 mt-sp-30">
+              <img class="image selected" src="./image/image-blend-cotton.png" alt="コットン">
+              <img class="image" src="./image/image-blend-linen.png" alt="麻">
+              <img class="image" src="./image/image-blend-wool.png" alt="ウール">
+              <img class="image" src="./image/image-blend-silk.png" alt="シルク">
+              <img class="image" src="./image/image-blend-washi.png" alt="和紙繊維">
+            </div>
+          </div>
+          <div class="page-blend__materials page-blend__materials--2">
+            <p>組み合わせる自然素材を選んでください。</p>
+            <div class="page-blend__natural-materials mt-25">
+              <div class="page-blend__row page-blend__row--1">
+                <img class="image selected" src="./image/image-blend-carbon.png" alt="炭素原料">
+                <img class="image" src="./image/image-blend-pumice.png" alt="軽石">
+                <img class="image" src="./image/image-blend-solt_bittern.png" alt="塩＆苦汁">
+              </div>
+              <div class="page-blend__row page-blend__row--2 mt-20">
+                <img class="image" src="./image/image-blend-yamatotachibana.png" alt="大和橘">
+                <img class="image" src="./image/image-blend-tea.png" alt="お茶（カテキン）">
+                <img class="image" src="./image/image-blend-scallop.png" alt="ホタテ貝殻">
+                <img class="image" src="./image/image-blend-sakekoji.png" alt="酒粕、酒糀">
+              </div>
+              <div class="page-blend__row page-blend__row--3 mt-20">
+                <img class="image" src="./image/image-blend-silkp_woolp.png" alt="シルクパウダー＆ウールパウダー">
+                <img class="image" src="./image/image-blend-ramiecellulocep_chitosanp.png" alt="麻のパウダー＆キトサンパウダー">
+                <img class="image" src="./image/image-blend-chitosanp_carbonp.png" alt="キトサンパウダー＆カーボンパウダー">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section--brown">
+    <img class="image footer__logo" src="./image/logo.svg" alt="  ロゴ">
+    <dl class="footer__info">
+      <dt class="footer__company"> </dt>
+      <dd class="footer__address"> 〒000-0000</dd>
+      <dd class="footer__address">大阪府大阪市</dd>
+      <dd class="footer__tel">TEL：００−００００−００００</dd>
+      <dd class="footer__fax">FAX：００−００００−００００</dd>
+    </dl>
+    <div>
+      <nav class="footer__wrap">
+        <ul class="footer__menu global-menu">
+          <li class="global-menu__item"><a class="link global-menu__link" href="./"><img class="image global-menu__image" src="./image/text-black-home.svg" alt="home"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./news.html"><img class="image global-menu__image" src="./image/text-black-news.svg" alt="news"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./blend.html"><img class="image global-menu__image" src="./image/text-black-blend.svg" alt="blend"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./company.html"><img class="image global-menu__image" src="./image/text-black-company.svg" alt="company"></a></li>
+          <li class="global-menu__item"><a class="link global-menu__link" href="./contact.html"><img class="image global-menu__image" src="./image/text-black-contact.svg" alt="contact"></a></li>
+        </ul>
+      </nav>
+      <div class="sdgs">
+        <img class="sdgs__logo image" src="./image/sdg_logo.png">
+        <div class="sdgs__icons">
+          <img class="image" src="./image/sdg_icon_01_ja_2.png">
+          <img class="image" src="./image/sdg_icon_03_ja_2.png">
+          <img class="image" src="./image/sdg_icon_08_ja_2.png">
+          <img class="image" src="./image/sdg_icon_09_ja_2.png">
+          <img class="image" src="./image/sdg_icon_11_ja_2.png">
+          <img class="image" src="./image/sdg_icon_17_ja_2.png">
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./script/blend.js"></script>
+</body>
+</html>
