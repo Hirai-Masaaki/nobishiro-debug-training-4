@@ -1,0 +1,12 @@
+.pc {
+  @include mq-down() {
+    display: none;
+  }
+}
+
+.sp {
+  display: none;
+  @include mq-down() {
+    display: block;
+  }
+}

@@ -1,0 +1,52 @@
+.footer {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  @include mq-down() {
+    gap: 15px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: $white;
+  }
+  &__logo {
+    align-self: flex-start;
+    height: 120px;
+    @include mq-down() {
+      align-self: center;
+      height: 85px;
+    }
+  }
+  &__info {
+    list-style: none;
+    @include mq-down() {
+      text-align: center;
+    }
+  }
+  &__company {
+    margin-bottom: 26px;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 3px;
+    @include mq-down() {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+  }
+  &__address, &__tel, &__fax {
+    line-height: 21px;
+    @include mq-down() {
+      font-size: 10px;
+      line-height: 1.8;
+      letter-spacing: 1;
+    }
+  }
+  &__wrap {
+    @include mq-down() {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.mt {
+  &-70- {
+    margin-top: -70px;
+  }
+  &-35- {
+    margin-top: -35px;
+  }
+  &-10- {
+    margin-top: -10px;
+  }
+  &-5 {
+    margin-top: 5px;
+  }
+  &-10 {
+    margin-top: 10px;
+  }
+  &-15 {
+    margin-top: 15px;
+  }
+  &-20 {
+    margin-top: 20px;
+  }
+  &-25 {
+    margin-top: 25px;
+  }
+  &-30 {
+    margin-top: 30px;
+  }
+  &-35 {
+    margin-top: 35px;
+  }
+  &-40 {
+    margin-top: 40px;
+  }
+  &-45 {
+    margin-top: 45px;
+  }
+  &-50 {
+    margin-top: 50px;
+  }
+  &-55 {
+    margin-top: 55px;
+  }
+  &-60 {
+    margin-top: 60px;
+  }
+  &-65 {
+    margin-top: 65px;
+  }
+  &-75 {
+    margin-top: 75px;
+  }
+  &-80 {
+    margin-top: 80px;
+  }
+  &-90 {
+    margin-top: 90px;
+  }
+  &-95 {
+    margin-top: 95px;
+  }
+  &-100 {
+    margin-top: 100px;
+  }
+  &-105 {
+    margin-top: 105px;
+  }
+}
+@include mq-down() {
+  .mt-sp {
+    &-0 {
+      margin-top: 0;
+    }
+    &-10 {
+      margin-top: 10px;
+    }
+    &-15 {
+      margin-top: 15px;
+    }
+    &-20 {
+      margin-top: 20px;
+    }
+    &-30 {
+      margin-top: 30px;
+    }
+  }
+}
+
+.ml {
+  &-60 {
+    margin-left: 60px;
+  }
+  &-130 {
+    margin-left: 130px;
+  }
+  &-150 {
+    margin-left: 150px;
+  }
+}
+@include mq-down() {
+  .ml-sp {
+    &-0 {
+      margin-left: initial;
+    }
+  }
+}
